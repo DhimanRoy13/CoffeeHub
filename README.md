@@ -15,7 +15,7 @@ Easy Navigation: Includes easy navigation options like a "Back to Home" button f
 
 **Clone the repository:**
 -bash/cmd
--Copy code :git clone https://github.com/your-username/coffehub.git
+-Copy code : https://github.com/DhimanRoy13/CoffeeHub.git
 -cd coffehub
 Open the project: Open the index.html file in your browser to view the project.
 
