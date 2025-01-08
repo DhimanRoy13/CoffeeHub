@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeHub</title>
+    <link rel="stylesheet" href="/Styles/Banner.css" />
+    <link rel="stylesheet" href="/Styles/popular.css" />
+    <link rel="stylesheet" href="/Styles/viewcoffee.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../Pages/Home/script.js"></script>
+    <script>
+      // Add DaisyUI as a plugin
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+        plugins: [require("daisyui")],
+        daisyui: {
+          themes: ["light", "dark"], // Light theme first to make it default
+        },
+      };
+    </script>
+    <!-- DaisyUI Styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="md:grid grid-cols-2 gap-6 w-[80%] mx-auto">
+        <div class="flex items-center gap-3 bg-[#F5F4F1] p-4">
+          <img
+            class="w-48 h-60 "
+            src="/images/1.png"
+            alt="Americano Coffee"
+          />
+          <div>
+            <p>
+              <strong>Name:</strong> Americano Coffee <br />
+              <strong>Chef:</strong> Mr. Matin Paul <br />
+              <strong>Price:</strong> 890 Taka
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 bg-[#F5F4F1] p-4">
+          <img
+            class="w-48 h-60 "
+            src="/images/2.png"
+            alt="Espresso Coffee"
+          />
+          <div>
+            <p>
+              <strong>Name:</strong>  Espresso Coffee <br />
+              <strong>Chef:</strong> Mrs. Morisha <br />
+              <strong>Price:</strong> 890 Taka
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 bg-[#F5F4F1] p-4">
+          <img
+            class="w-48 h-60 "
+            src="/images/3.png"
+            alt="Black Coffee"
+          />
+          <div>
+            <p> 
+              <strong>Name:</strong> Black Coffee<br />
+              <strong>Chef:</strong> Mr.Nibra Sweden <br />
+              <strong>Price:</strong> 890 Taka
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 bg-[#F5F4F1] p-4">
+          <img
+            class="w-48 h-60 "
+            src="/images/4.png"
+            alt="Cappuccino Coffee"
+          />
+          <div>
+            <p>
+              <strong>Name:</strong> Cappuccino Coffee <br />
+              <strong>Chef:</strong> Mr. Moruti <br />
+              <strong>Price:</strong> 890 Taka
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

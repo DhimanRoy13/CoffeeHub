@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeHub</title>
+    <link rel="stylesheet" href="/Styles/Banner.css" />
+    <link rel="stylesheet" href="/Styles/popular.css" />
+    <link rel="stylesheet" href="/Styles/viewcoffee.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../Pages/Home/script.js"></script>
+    <script>
+      // Add DaisyUI as a plugin
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+        plugins: [require("daisyui")],
+        daisyui: {
+          themes: ["light", "dark"], // Light theme first to make it default
+        },
+      };
+    </script>
+    <!-- DaisyUI Styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar-placeholder"></div>
+    <!-- Navigation part ends -->
+    <div>
+      <!-- First banner -->
+      <div class="banner w-full flex items-center">
+        <div class="w-full"></div>
+        <div class="w-full mx-auto space-y-3">
+          <h2 class="text-white text-[55px]">
+            Would you like a Cup of Delicious Coffee?
+          </h2>
+          <p class="text-[#FFFFFF] text-normal">
+            Its coffee time - Sip & Savor - Relaxation in every sip! Get the
+            nostalgia back!! Your companion of every moment!!! Enjoy the
+            beautiful moments and make them memorable.
+          </p>
+          <button
+            class="px-2 py-3 bg-[#E3B577] rounded-md text-white text-lg font-medium"
+          >
+            Learn more
+          </button>
+        </div>
+      </div>
+
+      <!-- Second banner -->
+      <div class="w-full bg-[#ECEAE3] py-4">
+        <div
+          class="md:grid grid-cols-4  gap-1 py-8 w-[85%] mx-auto items-center"
+        >
+          <div class="w-full ">
+            <img
+              class=""
+              src="../../images/icons/1.png"
+              alt="Awesome Aroma Icon"
+            />
+            <h2 class="text-4xl font-normal  mb-3">Awesome Aroma</h2>
+            <p class="des">
+              You will definitely be a fan of the design & aroma of your coffee
+            </p>
+          </div>
+          <div class="w-full">
+            <img
+              class=""
+              src="../../images/icons/2.png"
+              alt="High Quality Icon"
+            />
+            <h2 class="text-4xl font-normal mb-3">High Quality</h2>
+            <p class="des">
+              We served the coffee to you maintaining the best quality
+            </p>
+          </div>
+          <div class="w-full">
+            <img
+              class=""
+              src="../../images/icons/3.png"
+              alt="Pure Grades Icon"
+            />
+            <h2 class="text-4xl font-normal mb-3">Pure Grades</h2>
+            <p class="des">
+              The coffee is made of the green coffee beans which you will love
+            </p>
+          </div>
+          <div class="w-full">
+            <img
+              class=""
+              src="../../images/icons/4.png"
+              alt="Proper Roasting Icon"
+            />
+            <h2 class="text-3xl font-normal mb-3">Proper Roasting</h2>
+            <p class="des">
+              Your coffee is brewed by first roasting the green coffee beans
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner ends here -->
+
+    <!-- Popular product starts -->
+    <div id="popular-placeholder"></div>
+    <!-- Popular product ends -->
+
+    <!-- ShowCoffee starts -->
+    <div id="ShowCoffee-placeholder"></div>
+    <!-- ShowCoffee part ends -->
+
+    <!-- SocialPages starts -->
+    <div id="Social-placeholder"></div>
+    <!-- Social Pages part ends -->
+
+    <!-- Footer starts -->
+    <div id="footer-placeholder"></div>
+    <!-- Footer part ends -->
+
+  </body>
+</html>

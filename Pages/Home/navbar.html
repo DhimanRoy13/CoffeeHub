@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../Styles/navbar.css" />
+    <script defer src="../../script.js"></script>
+    <script>
+      // Add DaisyUI as a plugin
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+        plugins: [require("daisyui")],
+        daisyui: {
+          themes: ["light", "dark"], // Light theme first to make it default
+        },
+      };
+    </script>
+    <!-- DaisyUI Styles -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar1 flex items-center justify-center">
+      <img
+        class="logo"
+        src="../../images/more/logo1.png"
+        alt="Espresso Emporium Logo"
+      />
+      <h2 class="text">Espresso Emporium</h2>
+    </nav>
+  </body>
+</html>

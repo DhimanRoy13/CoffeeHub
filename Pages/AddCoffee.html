@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoffeeHub</title>
+  <link rel="stylesheet" href="/Styles/Banner.css" />
+  <link rel="stylesheet" href="/Styles/popular.css" />
+  <link rel="stylesheet" href="/Styles/viewcoffee.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script defer src="../Pages/Home/script.js"></script>
+</head>
+<body>
+  <div class="mt-2 mx-16">
+    <a class="flex items-center gap-2" href="/Pages/index.html">
+      <i class="fas fa-arrow-left text-2xl"></i>
+      <span>Back to home</span>
+    </a>
+  </div>
+
+  <div class="text-center w-4/5 mx-auto">
+    <h2 class="text-4xl font-semibold my-5">Add A Coffee</h2>
+    <p class="text-lg">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of
+      using Lorem Ipsum is that it has a more-or-less normal distribution of
+      letters, as opposed to using Content here.
+    </p>
+  </div>
+
+  <form id="add-coffee-form" class="w-11/12 mx-auto">
+    <div class="flex gap-3">
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Coffee Name</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="Name"
+            class="input input-bordered w-full"
+            name="coffee"
+          />
+        </label>
+      </div>
+
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Chef</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="Chef"
+            class="input input-bordered w-full"
+            name="chef"
+          />
+        </label>
+      </div>
+    </div>
+
+    <div class="flex gap-3 my-5">
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Supplier</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="Supplier"
+            class="input input-bordered w-full"
+            name="supplier"
+          />
+        </label>
+      </div>
+
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Price</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="number"
+            placeholder="Price"
+            class="input input-bordered w-full"
+            name="price"
+          />
+        </label>
+      </div>
+    </div>
+
+    <div class="flex gap-3 my-5">
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Category</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="Category"
+            class="input input-bordered w-full"
+            name="category"
+          />
+        </label>
+      </div>
+
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Details</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="Details"
+            class="input input-bordered w-full"
+            name="details"
+          />
+        </label>
+      </div>
+    </div>
+
+    <div>
+      <div class="form-control w-full">
+        <label class="label">
+          <span class="label-text">Photo</span>
+        </label>
+        <label class="input-group">
+          <input
+            type="text"
+            placeholder="PhotoURL"
+            class="input input-bordered w-full"
+            name="photo"
+          />
+        </label>
+      </div>
+    </div>
+
+    <input
+      class="py-3 rounded-md w-full my-5 bg-[#D2B48C] text-lg font-semibold"
+      type="submit"
+      value="Add coffee"
+    />
+  </form>
+
+  <!-- Footer starts -->
+  <div id="footer-placeholder"></div>
+  <!-- Footer part ends -->
+</body>
+</html>
